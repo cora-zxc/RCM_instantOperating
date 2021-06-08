@@ -1,0 +1,93 @@
+html, body, #root{
+	margin:0 0 0 0;
+  width: 100%;
+  height: 100%;
+  overflow-y: hidden;
+}
+#side {
+  width:15%;
+  height: 100%;
+  float: left;
+}
+#statistics{
+  background-color:#014e62;
+	width:85%;
+  height: 20%;
+  float: right;
+}
+#pie{
+	background-color:#014e62;
+	width: 85%;
+  height: 40%;
+  float: right;
+}
+#bar{
+	background-color:#014e62;
+	width: 85%;
+  height: 40%;
+  float: right;
+}
+#statistics > div{
+	background-color: white;
+  display: inline-block;
+  width: 19.4%;
+  height: 98%;
+  box-sizing: border-box;
+  text-align: center;
+  border-radius: 15px;
+  margin: 0.5% 0% 0% 0.5%;
+}
+#pie > div {
+  background-color: white;
+  display: inline-block;
+  width: 32%;
+  height: 98%;
+  box-sizing: border-box;
+  text-align: center;
+  border-radius: 15px;
+  margin: 0.5% 0% 0% 1%;
+}
+#bar > div {
+  background-color:white;
+  display: inline-block;
+  width: 48.5%;
+  height: 97%;
+  box-sizing: border-box;
+  text-align: center;
+  border-radius: 15px;
+  margin: 0.5% 0% 0.5% 1%;
+}
+#statistics > div > div:first-child {
+  line-height: 10vh;
+  font-size: 3.5vh;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  font-weight: 600;
+  color: white;
+}
+#statistics > div > div:last-child {
+  line-height: 10vh;
+  font-size: 5vh;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  font-weight: 600;
+}
+#pie > div > div:first-child {
+  width: 100%;
+  height: 15%;
+  font-size: 3vh;
+  padding: 1% 0%;
+}
+#pie > div > div:last-child {
+  height: 85%;
+}
+#bar > div > div:first-child {
+  width: 100%;
+  height: 15%;
+  font-size: 3vh;
+  padding: 1% 0%;
+}
+#bar > div > div:last-child {
+  height: 85%;
+  padding: 0% 1%;
+}
