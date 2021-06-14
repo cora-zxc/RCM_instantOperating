@@ -36,7 +36,7 @@ const DemoGauge2: React.FC = () => {
     indicator: null,
     statistic: {
       title: {
-        offsetY: -10,
+        offsetY: 0,
         style: {
           fontSize: '36px',
           color: '#4B535E',
@@ -73,7 +73,7 @@ const DemoPie: React.FC = () => {
     }
   ];
   var config = {
-    innerRadius: 0.6,
+    innerRadius: 0.4,
     statistic: {
       title: false,
       content: {
@@ -104,10 +104,10 @@ const DemoPie: React.FC = () => {
         return '#092278';
       };
     },
-    radius: 0.9,
+    radius: 0.7,
     label: {
       type: 'spider',
-      labelHeight: 50,
+      labelHeight: 40,
       content: '{name}\n{percentage}',
     },
     interactions: [{ type: 'element-active' }],
